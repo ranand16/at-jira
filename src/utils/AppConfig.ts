@@ -1,8 +1,8 @@
 // FIXME: Update this configuration file based on your project information
 
 export const AppConfig = {
-  site_name: 'JIRA software',
-  title: 'JIRA software clone',
-  description: 'JIRA software clone',
+  site_name: 'J1RA software',
+  title: 'J1RA software clone',
+  description: 'J1RA software clone',
   locale: 'en',
 };

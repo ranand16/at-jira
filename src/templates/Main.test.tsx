@@ -12,7 +12,7 @@ describe('Main template', () => {
       expect(menuItemList).toHaveLength(8);
     });
 
-    it('should have a link to support creativedesignsguru.com', () => {
+    it('should have a link to support https://rishabh-anand.dev', () => {
       render(<Main meta={null}>{null}</Main>);
 
       const copyrightSection = screen.getByText(/© Copyright/);
@@ -26,7 +26,7 @@ describe('Main template', () => {
        */
       expect(copyrightLink).toHaveAttribute(
         'href',
-        'https://creativedesignsguru.com',
+        'https://rishabh-anand.dev',
       );
     });
   });

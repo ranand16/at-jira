@@ -6,3 +6,6 @@ export const AppConfig = {
   description: 'J1RA software clone',
   locale: 'en',
 };
+
+export const freebeecss =
+  'https://ranand16.github.io/free-bee/sb-common-assets/styles/tailwind.css';

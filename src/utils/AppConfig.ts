@@ -8,4 +8,4 @@ export const AppConfig = {
 };
 
 export const freebeecss =
-  'https://ranand16.github.io/free-bee/sb-common-assets/styles/tailwind.css';
+  'https://ranand16.github.io/free-bee/sb-common-assets/app.min.css';

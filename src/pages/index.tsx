@@ -1,3 +1,5 @@
+import { Button } from 'free-bee';
+
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
@@ -10,6 +12,9 @@ const Index = () => (
       />
     }
   >
+    <Button label="This is a button" />
+    {/* <Radio /> */}
+    {/* <Breadcrumbs>Hi</Breadcrumbs> */}
     This is desktop
   </Main>
 );
